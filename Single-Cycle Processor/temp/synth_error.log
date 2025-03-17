@@ -1,0 +1,585 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Tue Feb 25 16:15:13 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 0 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/MIPS_types.vhd
+    Info (12022): Found design unit 1: MIPS_types File: /home/chris44/Desktop/cpre381-toolflow/proj/src/MIPS_types.vhd Line: 15
+    Info (12022): Found design unit 2: MIPS_types-body File: /home/chris44/Desktop/cpre381-toolflow/proj/src/MIPS_types.vhd Line: 29
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/ALU.vhd
+    Info (12022): Found design unit 1: ALU-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/ALU.vhd Line: 31
+    Info (12023): Found entity 1: ALU File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/ALU.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Extender16t32.vhd
+    Info (12022): Found design unit 1: Extender16t32-mixed File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Extender16t32.vhd Line: 23
+    Info (12023): Found entity 1: Extender16t32 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Extender16t32.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Extender8t32.vhd
+    Info (12022): Found design unit 1: Extender8t32-mixed File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Extender8t32.vhd Line: 23
+    Info (12023): Found entity 1: Extender8t32 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Extender8t32.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Fiveto32Decoder.vhd
+    Info (12022): Found design unit 1: Fiveto32Decoder-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Fiveto32Decoder.vhd Line: 23
+    Info (12023): Found entity 1: Fiveto32Decoder File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Fiveto32Decoder.vhd Line: 15
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/LoadSelector.vhd
+    Info (12022): Found design unit 1: LoadSelector-mixed File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/LoadSelector.vhd Line: 25
+    Info (12023): Found entity 1: LoadSelector File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/LoadSelector.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd
+    Info (12022): Found design unit 1: MIPS_Processor-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 33
+    Info (12023): Found entity 1: MIPS_Processor File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Mux32t1.vhd
+    Info (12022): Found design unit 1: Mux32t1-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Mux32t1.vhd Line: 54
+    Info (12023): Found entity 1: Mux32t1 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Mux32t1.vhd Line: 15
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/N_bit_register.vhd
+    Info (12022): Found design unit 1: N_bit_register-mixed File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/N_bit_register.vhd Line: 29
+    Info (12023): Found entity 1: N_bit_register File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/N_bit_register.vhd Line: 19
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/N_bit_registerPC.vhd
+    Info (12022): Found design unit 1: N_bit_registerPC-mixed File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/N_bit_registerPC.vhd Line: 30
+    Info (12023): Found entity 1: N_bit_registerPC File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/N_bit_registerPC.vhd Line: 19
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Nripplefulladder.vhd
+    Info (12022): Found design unit 1: Nripplefulladder-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Nripplefulladder.vhd Line: 25
+    Info (12023): Found entity 1: Nripplefulladder File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Nripplefulladder.vhd Line: 15
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/RegFile.vhd
+    Info (12022): Found design unit 1: RegFile-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/RegFile.vhd Line: 29
+    Info (12023): Found entity 1: RegFile File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/RegFile.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/addersubtractor.vhd
+    Info (12022): Found design unit 1: addersubtractor-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/addersubtractor.vhd Line: 25
+    Info (12023): Found entity 1: addersubtractor File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/addersubtractor.vhd Line: 15
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/andg2.vhd
+    Info (12022): Found design unit 1: andg2-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/andg2.vhd Line: 31
+    Info (12023): Found entity 1: andg2 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/andg2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/andg32.vhd
+    Info (12022): Found design unit 1: andg32-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/andg32.vhd Line: 25
+    Info (12023): Found entity 1: andg32 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/andg32.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/control.vhd
+    Info (12022): Found design unit 1: control-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/control.vhd Line: 39
+    Info (12023): Found entity 1: control File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/control.vhd Line: 15
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/dffg.vhd
+    Info (12022): Found design unit 1: dffg-mixed File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/dffg.vhd Line: 33
+    Info (12023): Found entity 1: dffg File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/dffg.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/dffgPC.vhd
+    Info (12022): Found design unit 1: dffgPC-mixed File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/dffgPC.vhd Line: 34
+    Info (12023): Found entity 1: dffgPC File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/dffgPC.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/fulladder.vhd
+    Info (12022): Found design unit 1: fulladder-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/fulladder.vhd Line: 26
+    Info (12023): Found entity 1: fulladder File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/fulladder.vhd Line: 15
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/invg.vhd
+    Info (12022): Found design unit 1: invg-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/invg.vhd Line: 28
+    Info (12023): Found entity 1: invg File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/invg.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/invg32.vhd
+    Info (12022): Found design unit 1: invg32-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/invg32.vhd Line: 29
+    Info (12023): Found entity 1: invg32 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/invg32.vhd Line: 22
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mem.vhd
+    Info (12022): Found design unit 1: mem-rtl File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mem.vhd Line: 27
+    Info (12023): Found entity 1: mem File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mem.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux2t1.vhd
+    Info (12022): Found design unit 1: mux2t1-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux2t1.vhd Line: 23
+    Info (12023): Found entity 1: mux2t1 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux2t1.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux2t1_N.vhd
+    Info (12022): Found design unit 1: mux2t1_N-structural File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux2t1_N.vhd Line: 30
+    Info (12023): Found entity 1: mux2t1_N File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux2t1_N.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd
+    Info (12022): Found design unit 1: mux4t1-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 25
+    Info (12023): Found entity 1: mux4t1 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1_N.vhd
+    Info (12022): Found design unit 1: mux4t1_N-structural File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1_N.vhd Line: 31
+    Info (12023): Found entity 1: mux4t1_N File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1_N.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd
+    Info (12022): Found design unit 1: mux8t1_32Bit-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 29
+    Info (12023): Found entity 1: mux8t1_32Bit File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/onescomp.vhd
+    Info (12022): Found design unit 1: onescomp-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/onescomp.vhd Line: 21
+    Info (12023): Found entity 1: onescomp File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/onescomp.vhd Line: 15
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/org1_32bit.vhd
+    Info (12022): Found design unit 1: org1_32bit-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/org1_32bit.vhd Line: 24
+    Info (12023): Found entity 1: org1_32bit File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/org1_32bit.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/org2.vhd
+    Info (12022): Found design unit 1: org2-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/org2.vhd Line: 31
+    Info (12023): Found entity 1: org2 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/org2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/org32.vhd
+    Info (12022): Found design unit 1: org32-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/org32.vhd Line: 25
+    Info (12023): Found entity 1: org32 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/org32.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/shifter.vhd
+    Info (12022): Found design unit 1: shifter-structure File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/shifter.vhd Line: 24
+    Info (12023): Found entity 1: shifter File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/shifter.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/xorg2.vhd
+    Info (12022): Found design unit 1: xorg2-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/xorg2.vhd Line: 31
+    Info (12023): Found entity 1: xorg2 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/xorg2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/xorg32.vhd
+    Info (12022): Found design unit 1: xorg32-dataflow File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/xorg32.vhd Line: 22
+    Info (12023): Found entity 1: xorg32 File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/xorg32.vhd Line: 16
+Info (12127): Elaborating entity "MIPS_Processor" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(52): object "s_Halt" assigned a value but never read File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 52
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(55): object "s_Ovfl" assigned a value but never read File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 55
+Warning (10036): Verilog HDL or VHDL warning at MIPS_Processor.vhd(62): object "s_Dummy" assigned a value but never read File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 62
+Info (12128): Elaborating entity "mem" for hierarchy "mem:IMem" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 225
+Info (12128): Elaborating entity "N_bit_registerPC" for hierarchy "N_bit_registerPC:PC" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 254
+Info (12128): Elaborating entity "dffgPC" for hierarchy "N_bit_registerPC:PC|dffgPC:\N_bit_reg:0:N_bit_reg1" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/N_bit_registerPC.vhd Line: 46
+Warning (10492): VHDL Process Statement warning at dffgPC.vhd(55): signal "i_RST_VAL" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/dffgPC.vhd Line: 55
+Info (12128): Elaborating entity "mux2t1_N" for hierarchy "mux2t1_N:JALMux" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 258
+Info (12128): Elaborating entity "mux2t1" for hierarchy "mux2t1_N:JALMux|mux2t1:\G_NBit_MUX:0:MUXI" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux2t1_N.vhd Line: 43
+Info (12128): Elaborating entity "invg" for hierarchy "mux2t1_N:JALMux|mux2t1:\G_NBit_MUX:0:MUXI|invg:notgate" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux2t1.vhd Line: 53
+Info (12128): Elaborating entity "andg2" for hierarchy "mux2t1_N:JALMux|mux2t1:\G_NBit_MUX:0:MUXI|andg2:andgate1" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux2t1.vhd Line: 56
+Info (12128): Elaborating entity "org2" for hierarchy "mux2t1_N:JALMux|mux2t1:\G_NBit_MUX:0:MUXI|org2:orgate" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux2t1.vhd Line: 62
+Info (12128): Elaborating entity "mux2t1_N" for hierarchy "mux2t1_N:wrRegMux1" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 262
+Info (12128): Elaborating entity "addersubtractor" for hierarchy "addersubtractor:PCAdder" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 281
+Info (12128): Elaborating entity "onescomp" for hierarchy "addersubtractor:PCAdder|onescomp:inverter" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/addersubtractor.vhd Line: 63
+Info (12128): Elaborating entity "Nripplefulladder" for hierarchy "addersubtractor:PCAdder|Nripplefulladder:addsub" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/addersubtractor.vhd Line: 72
+Info (12128): Elaborating entity "fulladder" for hierarchy "addersubtractor:PCAdder|Nripplefulladder:addsub|fulladder:\nbitrip:0:Ones_Comp1" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/Nripplefulladder.vhd Line: 43
+Info (12128): Elaborating entity "xorg2" for hierarchy "addersubtractor:PCAdder|Nripplefulladder:addsub|fulladder:\nbitrip:0:Ones_Comp1|xorg2:xorGate1" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/fulladder.vhd Line: 67
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:AluComp" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 295
+Info (12128): Elaborating entity "shifter" for hierarchy "ALU:AluComp|shifter:Shift" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/ALU.vhd Line: 162
+Info (12128): Elaborating entity "mux4t1_N" for hierarchy "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/shifter.vhd Line: 99
+Info (12128): Elaborating entity "mux4t1" for hierarchy "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:0:MUXI" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1_N.vhd Line: 46
+Info (10041): Inferred latch for "o_O" at mux4t1.vhd(30) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 30
+Info (12128): Elaborating entity "andg32" for hierarchy "ALU:AluComp|andg32:Andg" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/ALU.vhd Line: 165
+Info (12128): Elaborating entity "org32" for hierarchy "ALU:AluComp|org32:Org" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/ALU.vhd Line: 168
+Info (12128): Elaborating entity "xorg32" for hierarchy "ALU:AluComp|xorg32:Xorg" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/ALU.vhd Line: 171
+Info (12128): Elaborating entity "invg32" for hierarchy "ALU:AluComp|invg32:invg32bits" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/ALU.vhd Line: 174
+Info (12128): Elaborating entity "org1_32bit" for hierarchy "ALU:AluComp|org1_32bit:orgZero" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/ALU.vhd Line: 181
+Info (12128): Elaborating entity "mux8t1_32Bit" for hierarchy "ALU:AluComp|mux8t1_32Bit:ControlMux" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/ALU.vhd Line: 191
+Info (10041): Inferred latch for "o_O[0]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[1]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[2]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[3]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[4]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[5]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[6]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[7]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[8]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[9]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[10]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[11]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[12]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[13]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[14]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[15]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[16]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[17]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[18]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[19]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[20]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[21]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[22]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[23]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[24]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[25]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[26]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[27]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[28]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[29]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[30]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (10041): Inferred latch for "o_O[31]" at mux8t1_32Bit.vhd(34) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (12128): Elaborating entity "RegFile" for hierarchy "RegFile:Reg" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 298
+Info (12128): Elaborating entity "Fiveto32Decoder" for hierarchy "RegFile:Reg|Fiveto32Decoder:decoder" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/RegFile.vhd Line: 94
+Info (12128): Elaborating entity "N_bit_register" for hierarchy "RegFile:Reg|N_bit_register:regFile0" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/RegFile.vhd Line: 105
+Info (12128): Elaborating entity "dffg" for hierarchy "RegFile:Reg|N_bit_register:regFile0|dffg:\N_bit_reg:0:N_bit_reg1" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/N_bit_register.vhd Line: 44
+Info (12128): Elaborating entity "Mux32t1" for hierarchy "RegFile:Reg|Mux32t1:Mux_rs" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/RegFile.vhd Line: 128
+Info (12128): Elaborating entity "LoadSelector" for hierarchy "LoadSelector:LdSel" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 301
+Info (12128): Elaborating entity "mux2t1_N" for hierarchy "LoadSelector:LdSel|mux2t1_N:mux_16UpperLower" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/LoadSelector.vhd Line: 68
+Info (12128): Elaborating entity "Extender16t32" for hierarchy "LoadSelector:LdSel|Extender16t32:Extender16t32Bits" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/LoadSelector.vhd Line: 71
+Info (12128): Elaborating entity "mux2t1_N" for hierarchy "LoadSelector:LdSel|mux2t1_N:mux_8UpperLower" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/LoadSelector.vhd Line: 76
+Info (12128): Elaborating entity "Extender8t32" for hierarchy "LoadSelector:LdSel|Extender8t32:Extender8t32Bits" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/LoadSelector.vhd Line: 79
+Info (12128): Elaborating entity "control" for hierarchy "control:Cont" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 305
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:31:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:30:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:29:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:28:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:27:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:26:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:25:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:24:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:23:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:22:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:21:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:20:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:19:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:18:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:17:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:16:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:15:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:14:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:13:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:12:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:11:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:10:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:9:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:8:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:7:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:6:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:5:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:4:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:3:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:2:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:1:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "LoadSelector:LdSel|mux4t1_N:mux4t1_32bit|mux4t1:\G_NBit_MUX:0:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:31:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:30:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:29:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:28:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:27:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:26:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:25:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:24:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:23:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:22:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:21:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:20:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:19:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:18:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:17:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:16:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:15:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:14:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:13:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:12:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:11:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:10:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:9:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:8:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:7:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:6:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:5:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:4:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:3:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:2:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:1:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_4|mux4t1:\G_NBit_MUX:0:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:31:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:30:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:29:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:28:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:27:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:26:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:25:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:24:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:23:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:22:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:21:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:20:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:19:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:18:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:17:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:16:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:15:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:14:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:13:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:12:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:11:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:10:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:9:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:8:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:7:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:6:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:5:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:4:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:3:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:2:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:1:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_3|mux4t1:\G_NBit_MUX:0:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:31:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:30:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:29:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:28:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:27:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:26:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:25:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:24:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:23:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:22:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:21:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:20:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:19:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:18:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:17:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:16:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:15:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:14:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:13:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:12:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:11:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:10:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:9:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:8:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:7:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:6:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:5:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:4:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:3:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:2:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:1:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_2|mux4t1:\G_NBit_MUX:0:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:31:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:30:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:29:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:28:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:27:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:26:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:25:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:24:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:23:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:22:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:21:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:20:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:19:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:18:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:17:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:16:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:15:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:14:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:13:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:12:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:11:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:10:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:9:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:8:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:7:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:6:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:5:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:4:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:3:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:2:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:1:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_1|mux4t1:\G_NBit_MUX:0:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:31:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:30:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:29:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:28:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:27:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:26:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:25:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:24:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:23:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:22:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:21:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:20:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:19:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:18:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:17:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:16:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:15:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:14:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:13:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:12:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:11:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:10:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:9:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:8:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:7:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:6:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:5:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:4:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:3:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:2:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:1:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|shifter:Shift|mux4t1_N:mux4t1_0|mux4t1:\G_NBit_MUX:0:MUXI|o_O" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd Line: 22
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[0]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[1]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[2]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[3]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[4]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[5]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[6]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[7]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[8]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[9]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[10]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[11]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[12]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[13]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[14]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[15]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[16]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[17]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[18]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[19]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[20]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[21]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[22]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[23]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[24]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[25]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[26]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[27]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[28]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[29]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[30]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Warning (14026): LATCH primitive "ALU:AluComp|mux8t1_32Bit:ControlMux|o_O[31]" is permanently enabled File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd Line: 34
+Info (276014): Found 2 instances of uninferred RAM logic
+    Info (276007): RAM logic "mem:IMem|ram" is uninferred due to asynchronous read logic File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mem.vhd Line: 35
+    Info (276007): RAM logic "mem:DMem|ram" is uninferred due to asynchronous read logic File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/mem.vhd Line: 35
+Warning (276002): Cannot convert all sets of registers into RAM megafunctions when creating nodes; therefore, the resulting number of registers remaining in design can cause longer compilation time or result in insufficient memory to complete Analysis and Synthesis
+Info (13000): Registers with preset signals will power-up high File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/dffgPC.vhd Line: 54
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 22 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "iInstAddr[0]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[1]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[12]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[13]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[14]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[15]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[16]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[17]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[18]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[19]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[20]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[21]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[22]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[23]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[24]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[25]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[26]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[27]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[28]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[29]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[30]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+    Warning (15610): No output dependent on input pin "iInstAddr[31]" File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 26
+Info (21057): Implemented 114777 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 67 input pins
+    Info (21059): Implemented 32 output pins
+    Info (21061): Implemented 114678 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 253 warnings
+    Info: Peak virtual memory: 1198 megabytes
+    Info: Processing ended: Tue Feb 25 16:19:22 2025
+    Info: Elapsed time: 00:04:09
+    Info: Total CPU time (on all processors): 00:04:03
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Tue Feb 25 16:19:24 2025
+Info: Command: quartus_fit --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = toolflow
+Info: Revision = toolflow
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (119006): Selected device EP4CE115F29C7 for design "toolflow"
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
+    Info (176445): Device EP4CE40F29C7 is compatible
+    Info (176445): Device EP4CE40F29I7 is compatible
+    Info (176445): Device EP4CE30F29C7 is compatible
+    Info (176445): Device EP4CE30F29I7 is compatible
+    Info (176445): Device EP4CE55F29C7 is compatible
+    Info (176445): Device EP4CE55F29I7 is compatible
+    Info (176445): Device EP4CE75F29C7 is compatible
+    Info (176445): Device EP4CE75F29I7 is compatible
+    Info (176445): Device EP4CE115F29I7 is compatible
+Info (169124): Fitter converted 5 user pins into dedicated programming pins
+    Info (169125): Pin ~ALTERA_ASDO_DATA1~ is reserved at location F4
+    Info (169125): Pin ~ALTERA_FLASH_nCE_nCSO~ is reserved at location E2
+    Info (169125): Pin ~ALTERA_DCLK~ is reserved at location P3
+    Info (169125): Pin ~ALTERA_DATA0~ is reserved at location N7
+    Info (169125): Pin ~ALTERA_nCEO~ is reserved at location P28
+Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Critical Warning (169085): No exact pin location assignment(s) for 99 pins of 99 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
+Info (332104): Reading SDC File: 'toolflow.sdc'
+Info (332129): Detected timing requirements -- optimizing circuit to achieve only the specified requirements
+Info (332111): Found 1 clocks
+    Info (332111):   Period   Clock Name
+    Info (332111): ======== ============
+    Info (332111):   20.000         iCLK
+Info (176353): Automatically promoted node iCLK~input (placed in PIN J1 (CLK1, DIFFCLK_0n)) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 23
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
+Info (176353): Automatically promoted node iRST~input (placed in PIN Y2 (CLK2, DIFFCLK_1p)) File: /home/chris44/Desktop/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd Line: 24
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G4
+Info (176233): Starting register packing
+Info (176235): Finished register packing
+    Extra Info (176219): No registers were packed into other blocks
+Info (176214): Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
+    Info (176211): Number of I/O pins in group: 97 (unused VREF, 2.5V VCCIO, 65 input, 32 output, 0 bidirectional)
+        Info (176212): I/O standards used: 2.5 V.
+Info (176215): I/O bank details before I/O pin placement
+    Info (176214): Statistics of I/O banks
+        Info (176213): I/O bank number 1 does not use VREF pins and has undetermined VCCIO pins. 5 total pin(s) used --  51 pins available
+        Info (176213): I/O bank number 2 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  62 pins available
+        Info (176213): I/O bank number 3 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  73 pins available
+        Info (176213): I/O bank number 4 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  71 pins available
+        Info (176213): I/O bank number 5 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  65 pins available
+        Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  57 pins available
+        Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  72 pins available
+        Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  71 pins available
+Info (171121): Fitter preparation operations ending: elapsed time is 00:01:16
+Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
+Info (170189): Fitter placement preparation operations beginning
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:33
+Info (170191): Fitter placement operations beginning
+Info (170137): Fitter placement was successful
+Info (170192): Fitter placement operations ending: elapsed time is 00:04:08
+Info (170193): Fitter routing operations beginning
+Info (170195): Router estimated average interconnect usage is 35% of the available device resources
+    Info (170196): Router estimated peak interconnect usage is 68% of the available device resources in the region that extends from location X69_Y37 to location X80_Y48
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+Info (170194): Fitter routing operations ending: elapsed time is 00:36:06
+Info (11888): Total time spent on timing analysis during the Fitter is 849.93 seconds.
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:29
+Info (144001): Generated suppressed messages file /home/chris44/Desktop/cpre381-toolflow/internal/QuartusWork/output_files/toolflow.fit.smsg
+Info: Quartus Prime Fitter was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 2637 megabytes
+    Info: Processing ended: Tue Feb 25 17:03:01 2025
+    Info: Elapsed time: 00:43:37
+    Info: Total CPU time (on all processors): 01:50:42
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Tue Feb 25 17:03:03 2025
+Info: Command: quartus_asm --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 884 megabytes
+    Info: Processing ended: Tue Feb 25 17:03:11 2025
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:07
