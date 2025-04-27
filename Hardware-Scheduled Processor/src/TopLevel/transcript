@@ -1,0 +1,868 @@
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+cd /home/chris44/Desktop/TopLevel
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/addersubtractor.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/addersubtractor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/addersubtractor.vhd(15): (vcom-1615) Existing entity 'addersubtractor' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/addersubtractor.vhd(15) will be overwritten.
+# -- Compiling entity addersubtractor
+# ** Warning: /home/chris44/Desktop/TopLevel/addersubtractor.vhd(25): (vcom-1615) Existing architecture 'addersubtractor(structure)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/addersubtractor.vhd(25) will be overwritten.
+# -- Compiling architecture structure of addersubtractor
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/ALU.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/ALU.vhd(17): (vcom-1615) Existing entity 'ALU' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/ALU.vhd(17) will be overwritten.
+# -- Compiling entity ALU
+# ** Warning: /home/chris44/Desktop/TopLevel/ALU.vhd(31): (vcom-1615) Existing architecture 'ALU(structure)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/ALU.vhd(31) will be overwritten.
+# -- Compiling architecture structure of ALU
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/andg2.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/andg2.vhd(23): (vcom-1615) Existing entity 'andg2' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/andg2.vhd(23) will be overwritten.
+# -- Compiling entity andg2
+# ** Warning: /home/chris44/Desktop/TopLevel/andg2.vhd(31): (vcom-1615) Existing architecture 'andg2(dataflow)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/andg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of andg2
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/andg32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/andg32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/andg32.vhd(17): (vcom-1615) Existing entity 'andg32' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/andg32.vhd(17) will be overwritten.
+# -- Compiling entity andg32
+# ** Warning: /home/chris44/Desktop/TopLevel/andg32.vhd(25): (vcom-1615) Existing architecture 'andg32(dataflow)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/andg32.vhd(25) will be overwritten.
+# -- Compiling architecture dataflow of andg32
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/control.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture dataflow of control
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/dffg.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/dffg.vhd(23): (vcom-1615) Existing entity 'dffg' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/dffg.vhd(23) will be overwritten.
+# -- Compiling entity dffg
+# ** Warning: /home/chris44/Desktop/TopLevel/dffg.vhd(33): (vcom-1615) Existing architecture 'dffg(mixed)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/dffg.vhd(33) will be overwritten.
+# -- Compiling architecture mixed of dffg
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/dffgPC.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/dffgPC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/dffgPC.vhd(24): (vcom-1615) Existing entity 'dffgPC' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/dffgPC.vhd(23) will be overwritten.
+# -- Compiling entity dffgPC
+# ** Warning: /home/chris44/Desktop/TopLevel/dffgPC.vhd(35): (vcom-1615) Existing architecture 'dffgPC(mixed)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/dffgPC.vhd(34) will be overwritten.
+# -- Compiling architecture mixed of dffgPC
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Extender16t32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Extender16t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/Extender16t32.vhd(16): (vcom-1615) Existing entity 'Extender16t32' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/Extender16t32.vhd(16) will be overwritten.
+# -- Compiling entity Extender16t32
+# ** Warning: /home/chris44/Desktop/TopLevel/Extender16t32.vhd(23): (vcom-1615) Existing architecture 'Extender16t32(mixed)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/Extender16t32.vhd(23) will be overwritten.
+# -- Compiling architecture mixed of Extender16t32
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Fiveto32Decoder.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Fiveto32Decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fiveto32Decoder
+# -- Compiling architecture dataflow of Fiveto32Decoder
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/fulladder.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/fulladder.vhd(15): (vcom-1615) Existing entity 'fulladder' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/fulladder.vhd(15) will be overwritten.
+# -- Compiling entity fulladder
+# ** Warning: /home/chris44/Desktop/TopLevel/fulladder.vhd(26): (vcom-1615) Existing architecture 'fulladder(structure)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/fulladder.vhd(26) will be overwritten.
+# -- Compiling architecture structure of fulladder
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/invg.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/invg.vhd(23): (vcom-1615) Existing entity 'invg' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/invg.vhd(23) will be overwritten.
+# -- Compiling entity invg
+# ** Warning: /home/chris44/Desktop/TopLevel/invg.vhd(28): (vcom-1615) Existing architecture 'invg(dataflow)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/invg.vhd(28) will be overwritten.
+# -- Compiling architecture dataflow of invg
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/invg32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/invg32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/invg32.vhd(22): (vcom-1615) Existing entity 'invg32' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/invg32.vhd(22) will be overwritten.
+# -- Compiling entity invg32
+# ** Warning: /home/chris44/Desktop/TopLevel/invg32.vhd(29): (vcom-1615) Existing architecture 'invg32(dataflow)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/invg32.vhd(29) will be overwritten.
+# -- Compiling architecture dataflow of invg32
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/LoadSelector.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/LoadSelector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/LoadSelector.vhd(16): (vcom-1615) Existing entity 'LoadSelector' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/LoadSelector.vhd(16) will be overwritten.
+# -- Compiling entity LoadSelector
+# ** Warning: /home/chris44/Desktop/TopLevel/LoadSelector.vhd(25): (vcom-1615) Existing architecture 'LoadSelector(mixed)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/LoadSelector.vhd(25) will be overwritten.
+# -- Compiling architecture mixed of LoadSelector
+# End time: 10:20:44 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mem.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:44 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Warning: /home/chris44/Desktop/TopLevel/mem.vhd(8): (vcom-1615) Existing entity 'mem' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mem.vhd(8) will be overwritten.
+# -- Compiling entity mem
+# ** Warning: /home/chris44/Desktop/TopLevel/mem.vhd(27): (vcom-1615) Existing architecture 'mem(rtl)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mem.vhd(27) will be overwritten.
+# -- Compiling architecture rtl of mem
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux2t1.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/mux2t1.vhd(16): (vcom-1615) Existing entity 'mux2t1' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mux2t1.vhd(16) will be overwritten.
+# -- Compiling entity mux2t1
+# ** Warning: /home/chris44/Desktop/TopLevel/mux2t1.vhd(23): (vcom-1615) Existing architecture 'mux2t1(structure)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mux2t1.vhd(23) will be overwritten.
+# -- Compiling architecture structure of mux2t1
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux2t1_N.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mux2t1_N.vhd(21) will be overwritten.
+# -- Compiling entity mux2t1_N
+# ** Warning: /home/chris44/Desktop/TopLevel/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mux2t1_N.vhd(30) will be overwritten.
+# -- Compiling architecture structural of mux2t1_N
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux4t1.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/mux4t1.vhd(16): (vcom-1615) Existing entity 'mux4t1' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd(16) will be overwritten.
+# -- Compiling entity mux4t1
+# ** Warning: /home/chris44/Desktop/TopLevel/mux4t1.vhd(25): (vcom-1615) Existing architecture 'mux4t1(structure)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mux4t1.vhd(25) will be overwritten.
+# -- Compiling architecture structure of mux4t1
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux4t1_N.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux4t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/mux4t1_N.vhd(20): (vcom-1615) Existing entity 'mux4t1_N' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mux4t1_N.vhd(20) will be overwritten.
+# -- Compiling entity mux4t1_N
+# ** Warning: /home/chris44/Desktop/TopLevel/mux4t1_N.vhd(31): (vcom-1615) Existing architecture 'mux4t1_N(structural)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mux4t1_N.vhd(31) will be overwritten.
+# -- Compiling architecture structural of mux4t1_N
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux8t1_32Bit.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux8t1_32Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/mux8t1_32Bit.vhd(16): (vcom-1615) Existing entity 'mux8t1_32Bit' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd(16) will be overwritten.
+# -- Compiling entity mux8t1_32Bit
+# ** Warning: /home/chris44/Desktop/TopLevel/mux8t1_32Bit.vhd(29): (vcom-1615) Existing architecture 'mux8t1_32Bit(structure)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/mux8t1_32Bit.vhd(29) will be overwritten.
+# -- Compiling architecture structure of mux8t1_32Bit
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Mux32t1.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Mux32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux32t1
+# -- Compiling architecture dataflow of Mux32t1
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/N_bit_register.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/N_bit_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/N_bit_register.vhd(19): (vcom-1615) Existing entity 'N_bit_register' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/N_bit_register.vhd(19) will be overwritten.
+# -- Compiling entity N_bit_register
+# ** Warning: /home/chris44/Desktop/TopLevel/N_bit_register.vhd(29): (vcom-1615) Existing architecture 'N_bit_register(mixed)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/N_bit_register.vhd(29) will be overwritten.
+# -- Compiling architecture mixed of N_bit_register
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Nripplefulladder.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Nripplefulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/Nripplefulladder.vhd(15): (vcom-1615) Existing entity 'Nripplefulladder' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/Nripplefulladdervhd.vhd(15) will be overwritten.
+# -- Compiling entity Nripplefulladder
+# ** Warning: /home/chris44/Desktop/TopLevel/Nripplefulladder.vhd(25): (vcom-1615) Existing architecture 'Nripplefulladder(structure)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/Nripplefulladdervhd.vhd(25) will be overwritten.
+# -- Compiling architecture structure of Nripplefulladder
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/onescomp.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/onescomp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/onescomp.vhd(15): (vcom-1615) Existing entity 'onescomp' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/onescomp.vhd(15) will be overwritten.
+# -- Compiling entity onescomp
+# ** Warning: /home/chris44/Desktop/TopLevel/onescomp.vhd(21): (vcom-1615) Existing architecture 'onescomp(structure)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/onescomp.vhd(21) will be overwritten.
+# -- Compiling architecture structure of onescomp
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org1_32bit.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org1_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/org1_32bit.vhd(17): (vcom-1615) Existing entity 'org1_32bit' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/org1_32bit.vhd(17) will be overwritten.
+# -- Compiling entity org1_32bit
+# ** Warning: /home/chris44/Desktop/TopLevel/org1_32bit.vhd(24): (vcom-1615) Existing architecture 'org1_32bit(dataflow)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/org1_32bit.vhd(24) will be overwritten.
+# -- Compiling architecture dataflow of org1_32bit
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org2.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/org2.vhd(23): (vcom-1615) Existing entity 'org2' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/org2.vhd(23) will be overwritten.
+# -- Compiling entity org2
+# ** Warning: /home/chris44/Desktop/TopLevel/org2.vhd(31): (vcom-1615) Existing architecture 'org2(dataflow)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/org2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of org2
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/org32.vhd(17): (vcom-1615) Existing entity 'org32' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/org32.vhd(17) will be overwritten.
+# -- Compiling entity org32
+# ** Warning: /home/chris44/Desktop/TopLevel/org32.vhd(25): (vcom-1615) Existing architecture 'org32(dataflow)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/org32.vhd(25) will be overwritten.
+# -- Compiling architecture dataflow of org32
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/RegFile.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Warning: /home/chris44/Desktop/TopLevel/RegFile.vhd(16): (vcom-1615) Existing entity 'RegFile' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/RegFile.vhd(16) will be overwritten.
+# -- Compiling entity RegFile
+# ** Warning: /home/chris44/Desktop/TopLevel/RegFile.vhd(29): (vcom-1615) Existing architecture 'RegFile(structure)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/RegFile.vhd(29) will be overwritten.
+# -- Compiling architecture structure of RegFile
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/shifter.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/shifter.vhd(17): (vcom-1615) Existing entity 'shifter' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/shifter.vhd(17) will be overwritten.
+# -- Compiling entity shifter
+# ** Warning: /home/chris44/Desktop/TopLevel/shifter.vhd(24): (vcom-1615) Existing architecture 'shifter(structure)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/shifter.vhd(24) will be overwritten.
+# -- Compiling architecture structure of shifter
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Extender8t32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Extender8t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/Extender8t32.vhd(16): (vcom-1615) Existing entity 'Extender8t32' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/Extender8t32.vhd(16) will be overwritten.
+# -- Compiling entity Extender8t32
+# ** Warning: /home/chris44/Desktop/TopLevel/Extender8t32.vhd(23): (vcom-1615) Existing architecture 'Extender8t32(mixed)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/Extender8t32.vhd(23) will be overwritten.
+# -- Compiling architecture mixed of Extender8t32
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.mips_types.
+# ** Error (suppressible): /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(20): (vcom-1195) Cannot find expanded name "work.MIPS_types".
+# ** Error: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(20): Unknown expanded name.
+# ** Note: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(21): VHDL Compiler exiting
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/N_bit_registerPC.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/N_bit_registerPC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/N_bit_registerPC.vhd(19): (vcom-1615) Existing entity 'N_bit_registerPC' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/N_bit_registerPC.vhd(19) will be overwritten.
+# -- Compiling entity N_bit_registerPC
+# ** Warning: /home/chris44/Desktop/TopLevel/N_bit_registerPC.vhd(30): (vcom-1615) Existing architecture 'N_bit_registerPC(mixed)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/N_bit_registerPC.vhd(30) will be overwritten.
+# -- Compiling architecture mixed of N_bit_registerPC
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/xorg32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/xorg32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/xorg32.vhd(16): (vcom-1615) Existing entity 'xorg32' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/xorg32.vhd(16) will be overwritten.
+# -- Compiling entity xorg32
+# ** Warning: /home/chris44/Desktop/TopLevel/xorg32.vhd(22): (vcom-1615) Existing architecture 'xorg32(dataflow)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/xorg32.vhd(22) will be overwritten.
+# -- Compiling architecture dataflow of xorg32
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/xorg2.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:20:45 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/chris44/Desktop/TopLevel/xorg2.vhd(23): (vcom-1615) Existing entity 'xorg2' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/xorg2.vhd(23) will be overwritten.
+# -- Compiling entity xorg2
+# ** Warning: /home/chris44/Desktop/TopLevel/xorg2.vhd(31): (vcom-1615) Existing architecture 'xorg2(dataflow)' at /home/chris44/cpre381/Proj1/cpre381-toolflow/proj/src/TopLevel/xorg2.vhd(31) will be overwritten.
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:20:45 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/addersubtractor.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:00 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/addersubtractor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity addersubtractor
+# -- Compiling architecture structure of addersubtractor
+# End time: 10:21:00 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/ALU.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:00 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture structure of ALU
+# End time: 10:21:00 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/andg2.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:00 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 10:21:00 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/andg32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:00 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/andg32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg32
+# -- Compiling architecture dataflow of andg32
+# End time: 10:21:00 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/control.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:00 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture dataflow of control
+# End time: 10:21:00 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/dffg.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:00 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/dffgPC.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/dffgPC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffgPC
+# -- Compiling architecture mixed of dffgPC
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Extender16t32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Extender16t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Extender16t32
+# -- Compiling architecture mixed of Extender16t32
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Fiveto32Decoder.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Fiveto32Decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fiveto32Decoder
+# -- Compiling architecture dataflow of Fiveto32Decoder
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/fulladder.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/fulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fulladder
+# -- Compiling architecture structure of fulladder
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/invg.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/invg32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/invg32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg32
+# -- Compiling architecture dataflow of invg32
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/LoadSelector.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/LoadSelector.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity LoadSelector
+# -- Compiling architecture mixed of LoadSelector
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mem.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture rtl of mem
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux2t1.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux2t1_N.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux4t1.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux4t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4t1
+# -- Compiling architecture structure of mux4t1
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux4t1_N.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux4t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux4t1_N
+# -- Compiling architecture structural of mux4t1_N
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux8t1_32Bit.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/mux8t1_32Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux8t1_32Bit
+# -- Compiling architecture structure of mux8t1_32Bit
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Mux32t1.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Mux32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux32t1
+# -- Compiling architecture dataflow of Mux32t1
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/N_bit_register.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/N_bit_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity N_bit_register
+# -- Compiling architecture mixed of N_bit_register
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Nripplefulladder.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Nripplefulladder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Nripplefulladder
+# -- Compiling architecture structure of Nripplefulladder
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/onescomp.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/onescomp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity onescomp
+# -- Compiling architecture structure of onescomp
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org1_32bit.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org1_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org1_32bit
+# -- Compiling architecture dataflow of org1_32bit
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org2.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/org32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org32
+# -- Compiling architecture dataflow of org32
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/RegFile.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RegFile
+# -- Compiling architecture structure of RegFile
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/shifter.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity shifter
+# -- Compiling architecture structure of shifter
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Extender8t32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/Extender8t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Extender8t32
+# -- Compiling architecture mixed of Extender8t32
+# End time: 10:21:01 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:01 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.mips_types.
+# ** Error (suppressible): /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(20): (vcom-1195) Cannot find expanded name "work.MIPS_types".
+# ** Error: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(20): Unknown expanded name.
+# ** Note: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(21): VHDL Compiler exiting
+# End time: 10:21:02 on Mar 27,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/N_bit_registerPC.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:02 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/N_bit_registerPC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity N_bit_registerPC
+# -- Compiling architecture mixed of N_bit_registerPC
+# End time: 10:21:02 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/xorg32.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:02 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/xorg32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg32
+# -- Compiling architecture dataflow of xorg32
+# End time: 10:21:02 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/xorg2.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:02 on Mar 27,2025
+# vcom -reportprogress 30 -work work /home/chris44/Desktop/TopLevel/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:21:02 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:31 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.mips_types.
+# ** Error (suppressible): /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(20): (vcom-1195) Cannot find expanded name "work.MIPS_types".
+# ** Error: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(20): Unknown expanded name.
+# ** Note: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(21): VHDL Compiler exiting
+# End time: 10:21:31 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:38 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# ** Error: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(22): (vcom-1136) Unknown identifier "DATA_WIDTH".
+# ** Note: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(30): VHDL Compiler exiting
+# End time: 10:21:38 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:40 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# ** Error: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(22): (vcom-1136) Unknown identifier "DATA_WIDTH".
+# ** Note: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(30): VHDL Compiler exiting
+# End time: 10:21:40 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:41 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# ** Error: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(22): (vcom-1136) Unknown identifier "DATA_WIDTH".
+# ** Note: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(30): VHDL Compiler exiting
+# End time: 10:21:41 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 10:21:42 on Mar 27,2025
+# vcom -reportprogress 300 -work work /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# ** Error: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(22): (vcom-1136) Unknown identifier "DATA_WIDTH".
+# ** Note: /home/chris44/Desktop/TopLevel/MIPS_Processor.vhd(30): VHDL Compiler exiting
+# End time: 10:21:42 on Mar 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
